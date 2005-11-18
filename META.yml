@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: Movie-Info
+version: 0.1
+license: perl
+distribution_type: module
+requires:
+  File::Which: 0
+recommends: {}
+build_requires: {}
+conflicts: {}
+dynamic_config: 1
+provides:
+  Movie::Info:
+    file: lib/Movie/Info.pm
+    version: 0.1
+generated_by: Module::Build version 0.19
