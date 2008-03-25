@@ -1,16 +1,20 @@
---- #YAML:1.0
+---
 name: Movie-Info
-version: 0.1
+version: 0.2
+author:
+  - 'Simon Wistow <simon@thegestalt.org>'
+abstract: get meta data from various format movie files
 license: perl
-distribution_type: module
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   File::Which: 0
-recommends: {}
-build_requires: {}
-conflicts: {}
 dynamic_config: 1
 provides:
   Movie::Info:
     file: lib/Movie/Info.pm
-    version: 0.1
-generated_by: Module::Build version 0.19
+    version: 0.2
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

@@ -3,7 +3,7 @@ package Movie::Info;
 use strict;
 use File::Which qw(where);
 
-our $VERSION = "0.1";
+our $VERSION = "0.2";
 
 
 =head1 NAME
